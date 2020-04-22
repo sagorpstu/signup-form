@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.wave{
+	position: fixed;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.login-section .row{
+	min-height: 100vh;
+}
+
+.card-header{
+	font-size: 24px;
+}
+
+.card{
+	border: 2px solid #29c18c;
+}
+.card-body form img{
+	width: 100px;
+	height: 100px;
+}
+.card-body form i{
+	position: absolute;;
+	left: 30px;
+	color: #29c18c;
+
+}
+
+.card-body a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.modal-body form i{
+	position: absolute;;
+	left: 30px;
+	color: #0069D9;
+}
+
+.modal-body .form-control{
+	padding-left: 40px;
+	border: 0;
+	border-bottom: 2px solid rgb(128, 165, 206);
+	border-radius: 0;
+	color: #0069D9;
+}
+
+.form-control{
+	padding-left: 40px;
+	border: 0;
+	border-bottom: 2px solid #29c18c9d;
+	border-radius: 0;
+	color: #29c18c;
+}
+.form-control::placeholder{
+	color: #29c18c;
+}
+.modal-body .form-control::placeholder{
+	color: #0069D9;
+}
+.form-control:focus{
+	outline: none;
+	border-bottom: 2px solid #29c18c9d;
+	box-shadow: none;
+	color: #29c18c;
+
+}
+
+.modal-body .form-control:focus{
+	outline: none;
+	border-bottom: 2px solid #0069D980;
+	box-shadow: none;
+	color: #0069D9;
+
+}
+
+
+
+.modal-header{
+	font-size: 24px;
+}
+
+.btn-custom{
+	background-color: #29c18c;
+	color: #fff !important;
+}
+
+.text-color{
+	color: #29c18c;
+}
+
+.bg-color{
+	background-color: #29c18c;
+}
+
+/* RESPONSIVE */
+@media (max-width:575px){
+	.card{
+		margin: 0;
+		width: 80% !important;
+		
+	}
+}
+
+@media (max-width:767px){
+	.card{
+		margin: 0 auto;
+		width: 70%;
+	}
+}
+@media (max-width:991px){
+	.card{
+		margin: 0 auto;
+	}
+}
